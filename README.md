@@ -1,4 +1,4 @@
-#Practice Task of Practice Task of Basic Syntax, Variables and Data Types
+#Practice Task of Basic Syntax, Variables and Data Types
 ---
 
 1. Explain why we need long long int data type?
