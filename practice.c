@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-// let define variable
+    // let define variable
     int num1;
     int num2;
 
@@ -10,5 +10,6 @@ int main()
 
     // print the value
     printf("%d %d", num2, num1);
+
     return 0;
 }
