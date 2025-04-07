@@ -14,10 +14,13 @@ Answer:
 ---
 
 2:-
- 1. Must start with a letter or underscore (`_`)
- 2. Can include letters, numbers, or underscores
- 3. Cannot use C keywords like `int`, `return`, `if` as variable names
-
+ 1. A variable must start with a letter (a-z, A-Z) or an underscore (`_`).
+ 2. The rest of the variable name can include letters, numbers (0-9), or underscores (`_`).
+ 3. Variable names are **case-sensitive** in C, meaning `variable`, `Variable`, and `VARIABLE` are considered different.
+ 4. A variable name **cannot** be a C keyword (such as `int`, `for`, `return`, etc.).
+ 5. Variable names should be meaningful and descriptive for better code readability (e.g., `age`, `totalPrice`).
+ 6. A variable name should not exceed the maximum length allowed by the compiler (although this is typically quite large).
+ 7. Variable names **cannot** contain spaces.
 ---
 
 3: Go to the practice.c file >
